@@ -1,0 +1,13 @@
+.card-holder{
+    width: 400px;
+    border: 2px solid gold;
+    border-radius: 2px;
+    //flex-basis: 33%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-around;
+
+    .text-holder{
+        overflow-wrap: break-word;
+    }
+}

@@ -1,0 +1,16 @@
+.app{
+
+    display: flex;
+    
+    justify-content: space-around; 
+    align-items: center; 
+    /* flex-flow: row wrap; */ 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: space-around;
+
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
