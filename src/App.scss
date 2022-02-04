@@ -1,16 +1,11 @@
 .app{
-
     display: flex;
+    flex-wrap: wrap; 
     
     justify-content: space-around; 
     align-items: center; 
-    /* flex-flow: row wrap; */ 
     flex-direction: row; 
-    flex-wrap: wrap; 
     align-content: space-around;
 
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-
+    padding: 40px calc((100% - (333px * 3)) / 2)
   }

@@ -1,13 +1,37 @@
 .card-holder{
-    width: 400px;
+    width: 270px;
+    height: 350px;
     border: 2px solid gold;
     border-radius: 2px;
-    //flex-basis: 33%;
-    flex-grow: 1;
+    margin: 20px;
+    flex-grow: 0;
     flex-shrink: 1;
+    //flex-basis: 30%;
+
     justify-content: space-around;
+    //flex: 0 1 263px;
+
 
     .text-holder{
         overflow-wrap: break-word;
     }
 }
+
+/*
+@media (min-width: 1001px){
+    .card-holder{
+        flex-basis: 270px;
+    }
+}
+
+@media (max-width: 1000px){
+    .card-holder{
+      flex-basis: 270px;
+    }
+}
+
+@media (max-width: 720px){
+    .card-holder{
+      flex-basis: 270px;
+    }
+}*/
