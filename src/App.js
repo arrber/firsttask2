@@ -13,6 +13,7 @@ class App extends Component {
         UPDATECARD.updates.map((el, index) => {
           return(
             <UpdateCard
+              bColor={el.bColor}
               vDate={el.vDate}
               type={el.type}
               image={el.image}

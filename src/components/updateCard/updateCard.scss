@@ -1,9 +1,10 @@
 .card-holder{
-    width: 270px;
+    width: 350px;
     height: 350px;
-    border: 2px solid gold;
+    border: 1px solid rgb(233, 233, 233);
     border-radius: 2px;
-    margin: 20px;
+    margin: 18px;
+    padding: 10px 30px;
     flex-grow: 0;
     flex-shrink: 1;
     //flex-basis: 30%;
@@ -11,9 +12,61 @@
     justify-content: space-around;
     //flex: 0 1 263px;
 
+    .developer-holder{
+        display: inline-flex;
+        margin: 10px 0px;
+
+        .type{
+            padding: 5px 30px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            margin-right: 10px;
+        }
+
+        .dev-name{           
+            display: inline-flex; 
+            
+            .image{
+                border: 1px solid rgb(214, 214, 214);
+                height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                align-items: center; 
+                justify-content: center;
+                margin-right: 10px;
+            }
+    
+            .name{
+                margin: 0;
+                font-weight: 600;
+            }
+        }
+    }
+
 
     .text-holder{
+        color: rgb(211, 211, 211);
+        text-align: left;
         overflow-wrap: break-word;
+    }
+    
+    .button-holder{
+        .btn{
+            margin-top: 30px;
+            border: 1px solid blue;
+            border-radius: 15px 15px;
+            background: white;
+            padding: 10px 15px;
+            color: blue;
+            font-size: 16px;
+            font-weight: 500;
+
+            &:hover{
+                cursor: pointer;
+                color: rgb(22, 22, 255);
+            }
+        }
     }
 }
 
